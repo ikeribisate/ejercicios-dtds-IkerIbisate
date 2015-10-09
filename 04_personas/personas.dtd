@@ -1,0 +1,14 @@
+<!ELEMENT personas (nombre, emails, parentescos?)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre dni CDATA #REQUIRED>
+<!ATTLIST nombre edad CDATA #IMPLIED>
+<!ATTLIST nombre sexo (M|H) #REQUIRED>
+
+<!ELEMENT emails (#PCDATA)>
+
+<!ELEMENT parentescos (#PCDATA)>
+        <!ATTLIST parentescos   padre_de IDREF
+                                hermano_de IDREF >
+
+
