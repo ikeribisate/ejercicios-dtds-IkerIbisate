@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE agenda SYSTEM "agenda.dtd">
 <agenda>
+    <contacto>
+        <nombre></nombre>
+        <direccion></direccion>
+        <ciudad></ciudad>
+        <codigo_postal></codigo_postal>
+        <numeros>
+            <telefono></telefono>
+            <fax></fax>
+        </numeros>
+        <email></email>
+        <web></web>
+        <compania></compania>
+    </contacto>
 </agenda>

@@ -1,1 +1,18 @@
-<!ELEMENT agenda (#PCDATA)>
+<!ELEMENT agenda (contacto)+>
+<!ELEMENT contacto (nombre, direccion, ciudad, codigo_postal,numeros, email, web, compania)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT numeros (telefono,fax)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT compania (#PCDATA)>
+
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+
+
+
+
+
