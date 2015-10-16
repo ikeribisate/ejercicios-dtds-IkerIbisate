@@ -8,8 +8,13 @@
 
 <!ELEMENT cliente (nombre, direccion, telefono*)>
 <!ATTLIST cliente id CDATA #REQUIRED>
-<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT direccion (via,cp,localidad,provincia)>
+<!ELEMENT via (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono num CDATA #REQUIRED>
 
 <!ELEMENT articulo (denominacion, precio, cantidad)>
 <!ATTLIST articulo id CDATA #REQUIRED>
