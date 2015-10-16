@@ -1,6 +1,6 @@
 <!ELEMENT partidos (resultados+)>
-        <!ELEMENT resultados (nombre_local,nombre_visitante)>
-        <!ELEMENT nombre_local (#PCDATA)>
-        <!ELEMENT nombre_visitante (#PCDATA)>
-        <!ATTLIST nombre_local goles_local   CDATA #REQUIRED>
-        <!ATTLIST nombre_visitante goles_visitante  CDATA #REQUIRED>
+        <!ELEMENT resultados (local,visitante)>
+        <!ELEMENT local (#PCDATA)>
+        <!ELEMENT visitante (#PCDATA)>
+        <!ATTLIST local goles   CDATA #REQUIRED>
+        <!ATTLIST visitante goles  CDATA #REQUIRED>

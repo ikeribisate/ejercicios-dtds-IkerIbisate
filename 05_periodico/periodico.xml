@@ -2,26 +2,4 @@
 <!DOCTYPE periodico SYSTEM "periodico.dtd">
 
 
-<periodico>
-    <cabecera>
-        <nombre></nombre>
-        <fecha></fecha>
-        <edicion></edicion>
-        <numero></numero>
-        <precio></precio>
-    </cabecera>
-    <portada>
-        <titular></titular>
-        <noticias_d></noticias_d>
-        <publicidad></publicidad>
-    </portada>
-    <secciones tipo="tv_radio">
-        <noticias>
-            <titulo></titulo>
-            <subtitulo></subtitulo>
-            <entradilla></entradilla>
-            <cuerpo></cuerpo>
-        </noticias>
-    </secciones>
-    <contraportada></contraportada>
-</periodico>
+<periodico
