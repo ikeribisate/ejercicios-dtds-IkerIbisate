@@ -1,1 +1,6 @@
-<!ELEMENT resultados (#PCDATA)>
+<!ELEMENT partidos (resultados+)>
+        <!ELEMENT resultados (#PCDATA)>
+        <!ATTLIST resultados nombre_local CDATA #REQUIRED >
+        <!ATTLIST resultados nombre_visitante CDATA #REQUIRED >
+        <!ATTLIST resultados goles_local   CDATA #REQUIRED>
+        <!ATTLIST resultados goles_visitante  CDATA #REQUIRED>

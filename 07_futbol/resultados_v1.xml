@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<!DOCTYPE resultados SYSTEM "resultados_v1.dtd">
-<resultados>
-</resultados>
+<!DOCTYPE partidos SYSTEM "resultados_v1.dtd">
+<partidos>
+    <resultados>
+        <nombre_local>Zaragoza</nombre_local>
+        <nombre_visitante>Villareal</nombre_visitante>
+        <goles_local>2</goles_local>
+        <goles_visitante>1</goles_visitante>
+    </resultados>
+    <resultados>
+        <nombre_local>Athletic</nombre_local>
+        <nombre_visitante>Real Sociedad</nombre_visitante>
+        <goles_local>2</goles_local>
+        <goles_visitante>0</goles_visitante>
+    </resultados>
+    <resultados>
+        <nombre_local>Rayo</nombre_local>
+        <nombre_visitante>Racing</nombre_visitante>
+        <goles_local>4</goles_local>
+        <goles_visitante>2</goles_visitante>
+    </resultados>
+</partidos>
