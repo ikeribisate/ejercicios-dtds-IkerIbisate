@@ -1,6 +1,6 @@
 <!ELEMENT universidad (alumnos, profesores)>
 
-<!ELEMENT alumnos (datos, info_contacto?)>
+<!ELEMENT alumnos (datos, info_contacto?,asignaturas_alumno)>
     <!ELEMENT datos (dni, pasaporte?, nombre, apellidos, fecha_nacimiento)>
     <!ELEMENT dni (#PCDATA)>
     <!ELEMENT pasaporte (#PCDATA)>
@@ -13,12 +13,15 @@
     <!ELEMENT tlf (#PCDATA)>
     <!ELEMENT cuenta_correo (#PCDATA)>
 
+    <!ELEMENT asignaturas_alumno (nombre_asig,notas)>
+    <!ELEMENT nombre_asig (#PCDATA)>
+    <!ELEMENT notas (NP|SS|AP|NT|SB|MH)>
 
 <!ELEMENT profesores (datos, info_contacto?, info_prof)>
-    <!ELEMENT info_prof (despacho, horario_tutorias, asignaturas)>
+    <!ELEMENT info_prof (despacho, horario_tutorias, asignaturas_profe)>
     <!ELEMENT despacho (#PCDATA)>
     <!ELEMENT horario_tutorias (#PCDATA)>
-    <!ELEMENT asignaturas (#PCDATA)>
+    <!ELEMENT asignaturas_profe (#PCDATA)>
 
 
 
