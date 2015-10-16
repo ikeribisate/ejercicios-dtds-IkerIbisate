@@ -13,18 +13,18 @@
     <!ELEMENT tlf (#PCDATA)>
     <!ELEMENT cuenta_correo (#PCDATA)>
 
-    <!ELEMENT asignaturas_alumno (nombre_asig,notas)>
+    <!ELEMENT asignaturas_alumno (nombre_asig)>
     <!ELEMENT nombre_asig (#PCDATA)>
     <!ATTLIST nombre_asig cod CDATA #REQUIRED>
     <!ATTLIST nombre_asig creditos CDATA #REQUIRED>
     <!ATTLIST nombre_asig carrera CDATA #REQUIRED>
-    <!ELEMENT notas (NP|SS|AP|NT|SB|MH)>
+    <!ATTLIST nombre_asig nota (NP|SS|AP|NT|SB|MH) #REQUIRED>
 
 <!ELEMENT profesores (datos, info_contacto?, info_prof)>
     <!ELEMENT info_prof (despacho, horario_tutorias, asignaturas_profe)>
     <!ELEMENT despacho (#PCDATA)>
     <!ELEMENT horario_tutorias (#PCDATA)>
-    <!ELEMENT asignaturas_profe (#PCDATA)>
+    <!ELEMENT asignaturas_profe (nombre_asig)>
 
 
 
