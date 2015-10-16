@@ -8,7 +8,7 @@
 <!ELEMENT emails (#PCDATA)>
 
 <!ELEMENT parentescos (#PCDATA)>
-        <!ATTLIST parentescos   padre_de IDREF
-                                hermano_de IDREF >
+        <!ATTLIST parentescos   padre_de  #REQUIRED
+                                hermano_de  #REQUIRED >
 
 
