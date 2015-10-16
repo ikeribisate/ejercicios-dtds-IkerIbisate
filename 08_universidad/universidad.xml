@@ -1,2 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE universidad SYSTEM "universidad.dtd">
+<universidad>
+    <alumnos>
+        <datos>
+            <dni></dni>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <fecha_nacimiento></fecha_nacimiento>
+        </datos>
+        <asignaturas_alumno>
+            <nombre_asig cod="" creditos="" carrera="" nota="AP"></nombre_asig>
+        </asignaturas_alumno>
+    </alumnos>
+    <profesores>
+        <datos>
+            <dni></dni>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <fecha_nacimiento></fecha_nacimiento>
+        </datos>
+        <info_contacto>
+            <dp></dp>
+            <tlf></tlf>
+            <cuenta_correo></cuenta_correo>
+        </info_contacto>
+        <info_prof>
+            <asignaturas_profe>
+                <nombre_asig cod="" creditos="" carrera="" nota="AP">
+            </asignaturas_profe>
+        </info_prof>
+    </profesores>
+</universidad>
