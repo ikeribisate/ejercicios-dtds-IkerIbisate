@@ -1,25 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE universidad SYSTEM "universidad.dtd">
-<universidad>
-    <alumnos>
-        <datos>
-            <dni></dni>
-            <nombre></nombre>
-            <apellidos></apellidos>
-            <fecha_nacimiento></fecha_nacimiento>
-        </datos>
-    </alumnos>
-    <profesores>
-        <datos>
-            <dni></dni>
-            <nombre></nombre>
-            <apellidos></apellidos>
-            <fecha_nacimiento></fecha_nacimiento>
-        </datos>
-        <info_prof>
-            <despacho></despacho>
-            <horario_tutorias></horario_tutorias>
-            <asignaturas></asignaturas>
-        </info_prof>
-    </profesores>
-</universidad>

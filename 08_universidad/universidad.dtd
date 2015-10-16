@@ -15,6 +15,9 @@
 
     <!ELEMENT asignaturas_alumno (nombre_asig,notas)>
     <!ELEMENT nombre_asig (#PCDATA)>
+    <!ATTLIST nombre_asig cod CDATA #REQUIRED>
+    <!ATTLIST nombre_asig creditos CDATA #REQUIRED>
+    <!ATTLIST nombre_asig carrera CDATA #REQUIRED>
     <!ELEMENT notas (NP|SS|AP|NT|SB|MH)>
 
 <!ELEMENT profesores (datos, info_contacto?, info_prof)>
