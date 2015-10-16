@@ -1,1 +1,16 @@
-<!ELEMENT universidad (#PCDATA)>
+<!ELEMENT universidad (alumnos,profesores)>
+
+<!ELEMENT alumnos (dni, pasaporte?, nombre, apellidos,fecha_nacimiento,info_contacto)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT pasaporte (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT info_contacto (dp,tlf,cuenta_correo)>
+<!ELEMENT dp (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT cuenta_correo (#PCDATA)>
+
+
+<!ELEMENT profesores (dni, pasaporte?, nombre, apellidos,fecha_nacimiento,info_contacto)>
+

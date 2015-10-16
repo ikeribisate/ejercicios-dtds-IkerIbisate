@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE universidad SYSTEM "universidad.dtd">
 <universidad>
+    <alumnos>
+        <dni></dni>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_nacimiento></fecha_nacimiento>
+    </alumnos>
+    <profesores>
+        <dni></dni>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_nacimiento></fecha_nacimiento>
+    </profesores>
 </universidad>
